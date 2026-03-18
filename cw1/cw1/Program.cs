@@ -68,7 +68,15 @@
 
     public int CalculateMin(int[] values)
     {
-
+        int min = values[0];
+        foreach (int i in values)
+        {
+            if (min > i)
+            {
+                min = i;
+            }
+        }
+        return min;
     }
 }
 
