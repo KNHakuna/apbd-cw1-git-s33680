@@ -52,6 +52,19 @@
         }
         return (float)sum / values.Length;
     }
+
+    public int CalculateMax(int[] values)
+    {
+        int max = values[0];
+        foreach (int i in values)
+        {
+            if (max < i)
+            {
+                max = i;
+            }
+        }
+        return max;
+    }
 }
 
 class Program
