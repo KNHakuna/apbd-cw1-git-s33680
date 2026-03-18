@@ -42,6 +42,11 @@
             Console.WriteLine("What is your next guess? ");
         }
     }
+
+    public float CalculateAvarage(int[] values)
+    {
+
+    }
 }
 
 class Program
