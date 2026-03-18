@@ -71,6 +71,7 @@ class Program
 {
     static void Main(string[] args)
     {
+        Console.WriteLine("Bonjour!\n");
         Arcade arcade = new Arcade();
         arcade.GuessTheNumber();
     }
