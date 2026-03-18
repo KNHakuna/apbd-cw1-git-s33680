@@ -84,7 +84,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Konnichiwa!\n");
+        Console.WriteLine("Buenos dias!\n");
         Arcade arcade = new Arcade();
         arcade.GuessTheNumber();
     }
