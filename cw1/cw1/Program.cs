@@ -45,7 +45,12 @@
 
     public float CalculateAvarage(int[] values)
     {
-
+        int sum=0;
+        foreach (int i in values)
+        {
+            sum += i;
+        }
+        return (float)sum / values.Length;
     }
 }
 
