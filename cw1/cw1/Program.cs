@@ -18,6 +18,11 @@
                 Console.WriteLine("That is not a number!");
                 continue;
             }
+            if (k < 1 || k > 100)
+            {
+                Console.WriteLine("Your number is out of range! Try again.");
+                continue;
+            }
             counter++;
 
             if (k == n)
