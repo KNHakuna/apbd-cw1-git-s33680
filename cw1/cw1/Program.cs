@@ -65,6 +65,11 @@
         }
         return max;
     }
+
+    public int CalculateMin(int[] values)
+    {
+
+    }
 }
 
 class Program
