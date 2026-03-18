@@ -52,6 +52,11 @@
         }
         return (float)sum / values.Length;
     }
+
+    public int CalculateMax(int[] values)
+    {
+
+    }
 }
 
 class Program
