@@ -2,7 +2,7 @@
 {
     public void GuessTheNumber()
     {
-        int n;
+        int n, counter=0;
         Random rand = new Random();
         n = rand.Next(1, 100);
 
@@ -18,10 +18,11 @@
                 Console.WriteLine("That is not a number!");
                 continue;
             }
+            counter++;
 
             if (k == n)
             {
-                Console.WriteLine("Congratulations, you won!");
+                Console.WriteLine($"Congratulations, you won in {counter} attempts!");
                 break;
             }
             else if (k < n)
@@ -33,7 +34,7 @@
                 Console.WriteLine("Too high!");
             }
 
-            Console.WriteLine("\n What is your next guess? ");
+            Console.WriteLine("What is your next guess? ");
         }
     }
 }
